@@ -17,7 +17,7 @@ NEWSPIDER_MODULE = 'WebHub.spiders'
 DOWNLOAD_DELAY = 0  # 间隔时间
 # LOG_LEVEL = 'INFO'  # 日志级别
 #### Scrapy downloader(下载器) 处理的最大的并发请求数量。 默认: 16
-CONCURRENT_REQUESTS = 32
+CONCURRENT_REQUESTS = 1
 # CONCURRENT_ITEMS = 1
 # CONCURRENT_REQUESTS_PER_IP = 1
 #REDIRECT_ENABLED = False
